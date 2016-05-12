@@ -21,5 +21,5 @@
     * 标识符：必须以字母、下划线或美元符开始。
 ### 类型、值、变量
 * JavaScript的数据类型
-    ![data type](image/data-type.png)
+    ![data type](images/data-type.png)
     
