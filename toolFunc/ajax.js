@@ -1,15 +1,10 @@
-//ES6
-class Video extends React.Component {
-    constructor(props){
-        super(props);
-        this.state = {
-            loopsRemaining: this.props.maxLoops,
-        };
-    }
-}
-var log = () => {
-    alert('no par   am')
-}
-var total = values.reduce((a, b) => a + b, 0);
+var time = new Date();
+var d = time.getDate(),
+    m = time.getMonth();
 
-import a from "*.js";
+function getDateString ( a, b ) {
+    return m + " " + d;
+}
+console.log( getDateString (m, d) );
+var a = 1;
+let b = 2;
