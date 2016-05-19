@@ -1,0 +1,35 @@
+.search-icon-box {
+    position: absolute;
+    top: -12px;
+    left: 8px;
+}
+.search-icon-circle {
+    position: absolute;
+    display: block;
+    width: 15px;
+    height: 15px;
+    top: 0;
+    left: 0;
+    border-radius: 30px;
+    border: 1px solid #888;
+    background: transparent;
+}
+.search-icon-line {
+    position: absolute;
+    display: block;
+    width: 10px;
+    height: 2px;
+    top: 17px;
+    left: 13px;
+    background: #888;
+    transform: rotate( 45deg );
+}
+.search-close {
+    font-size: 20px;
+    font-weight: 100;
+    color: #aaa;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+}
